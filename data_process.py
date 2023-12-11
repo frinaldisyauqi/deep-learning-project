@@ -1,6 +1,3 @@
-import sys
-sys.path.append('../')
-
 import os
 import re
 import json
@@ -11,8 +8,8 @@ import numpy as np
 from logparser import Spell, Drain
 
 
-input_dir  = '../dataset/hdfs/' 
-output_dir = '../output/hdfs/'
+input_dir  = 'dataset/hdfs/' 
+output_dir = 'output/hdfs/'
 log_file   = "HDFS.log"
 
 log_structured_file = output_dir + log_file + "_structured.csv"
