@@ -9,3 +9,4 @@ __pycache__
 *.pkl
 test_abnormal_results
 test_normal_results
+.gitkeep
